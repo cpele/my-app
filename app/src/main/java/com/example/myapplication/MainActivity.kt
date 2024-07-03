@@ -34,7 +34,7 @@ class MainActivity : ComponentActivity() {
                     when (screen) {
                         Screen.First ->
                             Greeting(
-                                name = "Fubo",
+                        name = "Molotov",
                                 modifier = Modifier.padding(innerPadding)
                             ) { screen = Screen.Second }
 
